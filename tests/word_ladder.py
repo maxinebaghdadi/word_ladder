@@ -19,7 +19,7 @@ def word_ladder(start_word, end_word, dictionary_file='words5.dict'):
     while len(que) > 0:                                          
             theobject = que.popleft()                                  
             for i in wordList: 
-                set(dictionary)
+                    set(dictionary)
                     if _adjacent(theobject[len(theobject)-1], i):            
                             if i == end_word:
                                     anotherobject = theobject                
